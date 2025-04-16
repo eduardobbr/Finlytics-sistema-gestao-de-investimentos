@@ -1,21 +1,33 @@
-📈 Sistema de Controle de Ações – PHP + Bootstrap
-Este projeto é um sistema web simples e intuitivo para controle de investimentos em ações, desenvolvido com PHP, MySQL, Bootstrap 5 e Chart.js. Com ele, é possível registrar, editar, vender e acompanhar a performance de ações da sua carteira de investimentos.
+Sistema Web de Controle de Ações
 
-🧩 Funcionalidades
-✅ Cadastro de ações com nome, cotação de compra, quantidade, data e comissões
-✅ Atualização automática da cotação atual via API (BRAPI)
-✅ Cálculo em tempo real de lucro/prejuízo, considerando comissões
-✅ Filtro e visualização em tabela dinâmica e responsiva
-✅ Registro de vendas com cálculo de lucro individual
-✅ Histórico de vendas com detalhamento de lucros/prejuízos
-✅ Dashboard visual com gráficos e resumos financeiros
-✅ Autenticação por login simples (admin)
-✅ Interface responsiva e amigável com Bootstrap
+Um sistema completo para gerenciamento de ações da bolsa de valores, construído com PHP, MySQL e Bootstrap 5. Ideal para investidores individuais, educadores financeiros ou analistas que desejam acompanhar seu portfólio com praticidade, cálculos automáticos de lucro/prejuízo, registro de vendas e gráficos em tempo real.
 
-📊 Tecnologias utilizadas
-PHP 8+
-MySQL / MariaDB
-Bootstrap 5.3
-Chart.js
-BRAPI.dev (API de cotação de ações)
-HTML5 / CSS3 / JavaScript Vanilla
+Funcionalidades Principais:
+
+🔐 Login com autenticação simples
+
+🧾 Cadastro de ações com nome, data de compra, cotação, comissão e quantidade
+
+🔄 Atualização automática da cotação atual via BRAPI.dev
+
+📈 Cálculo instantâneo de lucro/prejuízo, considerando comissão de compra e venda
+
+🛒 Registro de venda com cálculo do lucro líquido
+
+📊 Dashboard dinâmico com gráficos (Chart.js) e cards de resumo financeiro
+
+📚 Histórico de ações vendidas, com data, valores e resultado por operação
+
+📋 Tabela completa de ações, com filtro em tempo real e ações como editar, vender ou excluir
+
+⚙️ Código limpo, modularizado e responsivo, pronto para ser personalizado
+
+🛠️ Tecnologias Utilizadas
+
+Tecnologia	Finalidade
+PHP 8+	Lógica de backend e controle
+MySQL	Banco de dados relacional
+Bootstrap 5	Interface moderna e responsiva
+Chart.js	Gráficos interativos e dinâmicos
+JavaScript	Funções de UI e atualização
+BRAPI.dev	API de cotações da B3
